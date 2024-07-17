@@ -16,6 +16,7 @@
 }
 
 body{
+    color: white;
     background-color: #000000;
 }
 
@@ -26,6 +27,7 @@ header{
     padding-top: 57px;
     padding-left: 100px;
     padding-right: 100px;
+    margin-bottom: 60px;
 }
 /* nav-styles */
 
@@ -87,7 +89,7 @@ header{
 }
 
 .description{
-    font-weight: lighter;
+    font-weight: 200;
     margin-top: 16px;
 }
 
@@ -110,14 +112,8 @@ header{
     color: white;
 }
 
-.banner-img{
-    width: 449px;
-    height: 580px;
-    background-image: url('images/Images\ 2.png');
-}
 
 .free-video{
-    right: -1000px;
     background-color: #ffffff24;
     color: white;
     padding: 20px 20px;
@@ -126,6 +122,7 @@ header{
     border-radius: 10px;
 }
 .video-tutorial{
+
     display: flex;
     background-color: #ffffff18;
     color: white;
@@ -136,6 +133,16 @@ header{
     gap: 15px;
     border-radius: 10px;
     align-items: center;
+}
+
+.card-1 {
+    top: 30%;
+    right: 5%;
+}
+
+.card-2 {
+    top: 60%;
+    left: 60%;
 }
 
 .dot {
@@ -149,10 +156,70 @@ header{
     font-size: 14px;
 }
 
+/* main */
+
+/* change your habits section */
+
+.change-your-habits{
+    margin: 0 100px;
+    margin-bottom: 57px;
+}
+
+.titles{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title{
+    font-size: 35px;
+}
+
+.change-habits{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.card{
+    text-align: center;
+    width: 231px;
+}
+
+.card-img{
+    border-radius: 100px;
+}
+
+
 /* responsive */
 @media screen and (max-width: 576px) {
+
+    header{
+        padding: 0 20px;
+        padding-top: 57px;
+    }
     .nav-links {
         display: none;
+    }
+
+    .banner{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .banner-title{
+        font-size: 37px;
+    }
+
+    .change-your-habits{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .change-habits{
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
