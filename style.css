@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+}
+
+/* header styles */
+
+header{
+    background: linear-gradient(to bottom, #111111, #777777, #111111);
+    padding-top: 57px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* nav-styles */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.nav-title{
+    font-size: 30px;
+    color: #E6533C;
+    font-style: italic;
+}
+
+.nav-links{
+    color: white;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-btn{
+    background-color: #E6533C;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.nav-icon {
+    display: none;
+    font-size: 24px;
+    color: white;
+}
+
+/* banner style */
+
+.banner{
+    color: white;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.banner-content{
+    width: 1/2;
+}
+
+.banner-title{
+    font-size: 55px;
+}
+
+.font-special{
+    font-family: "Arizonia", cursive;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.description{
+    font-weight: lighter;
+    margin-top: 16px;
+}
+
+.btns{
+    margin-top: 20px;
+}
+
+.btn-1{
+    background-color: #E6533C;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.btn-2{
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: solid 1px white;
+    color: white;
+}
+
+.banner-img{
+    width: 449px;
+    height: 580px;
+    background-image: url('images/Images\ 2.png');
+}
+
+.free-video{
+    right: -1000px;
+    background-color: #ffffff24;
+    color: white;
+    padding: 20px 20px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+}
+.video-tutorial{
+    display: flex;
+    background-color: #ffffff18;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    width: 150px;
+    height: 60px;
+    gap: 15px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.dot {
+    width: 40px; 
+    height: 35px; 
+    background-color: #E6533C;
+    border-radius: 50%;
+}
+.type{
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    .nav-links {
+        display: none;
+    }
+
+}
