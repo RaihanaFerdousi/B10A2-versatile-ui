@@ -90,7 +90,7 @@ header{
 
 .description{
     font-weight: 200;
-    margin-top: 16px;
+    margin: 16px 0;
 }
 
 .btns{
@@ -189,6 +189,26 @@ header{
     border-radius: 100px;
 }
 
+/* run a extra mile section */
+
+.run-mile{
+    display: flex;
+    margin: 57px 100px;
+    gap: 40px;
+    align-items: center;
+    background-color: #222222;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.btn-3{
+    background-color: #E6533C;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
 
 /* responsive */
 @media screen and (max-width: 576px) {
@@ -220,6 +240,14 @@ header{
 
     .change-habits{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .run-mile{
+       flex-direction: column;
+    }
+
+    .btn-3{
+        width: 100%;
     }
 
 }
