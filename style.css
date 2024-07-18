@@ -135,15 +135,6 @@ header{
     align-items: center;
 }
 
-.card-1 {
-    top: 30%;
-    right: 5%;
-}
-
-.card-2 {
-    top: 60%;
-    left: 60%;
-}
 
 .dot {
     width: 40px; 
@@ -271,15 +262,111 @@ select{
 
 /* meet our teem */
 
+.our-team{
+   padding: 50px 100px;
+}
+
 .team{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #ffffff28;
+    padding: 10px;
 }
 
-.trainer1{
-    background-image: url('/images/Rectangle\ 25.png');
+
+
+
+.our-team {
+    padding: 50px 100px;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #ffffff28;
+    padding: 10px;
+}
+
+.trainer1, .trainer2, .trainer3, .trainer4, .trainer5, .trainer6 {
+    position: relative;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 272px;
+}
+
+.trainer1 {
+    background-image: url('/images/Rectangle-25.png');
+}
+.trainer2 {
+    background-image: url('/images/Rectangle\ 24.png');
+}
+.trainer3 {
+    background-image: url('/images/Rectangle-26.png');
+}
+.trainer4 {
+    background-image: url('/images/Rectangle-27.png');
+}
+.trainer5 {
+    background-image: url('/images/Rectangle-19.png');
+}
+.trainer6 {
+    background-image: url('/images/Rectangle-28.png');
+}
+
+.about {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-align: left;
+}
+
+
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+    padding: 50px 50px;
+    background-color: #ffffff28;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-title {
+    color: #E6533C;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.footer-info-container {
+    display: flex;
+    gap: 100px;
+}
+
+.footer-info {
+    font-weight: 200;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer-info li {
+    margin-bottom: 5px;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+.reserved {
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 20px;
 }
 
 /* responsive */
@@ -316,6 +403,8 @@ select{
 
     .run-mile{
        flex-direction: column;
+       padding: 40px;
+       margin: 50px 20px;
     }
 
     .btn-3{
@@ -328,5 +417,25 @@ select{
         flex-direction: column;
         align-items: center;
     }
+
+    .our-team {
+        padding: 30px 60px;
+    }
+
+    .team {
+        grid-template-columns: 1fr;
+    }
+
+.footer-content {
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+}
+
+.footer-info-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 
 }
