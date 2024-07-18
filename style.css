@@ -59,12 +59,6 @@ header{
     border-radius: 20px;
     color: white;
 }
-.nav-icon {
-    display: none;
-    font-size: 24px;
-    color: white;
-}
-
 /* banner style */
 
 .banner{
@@ -297,10 +291,10 @@ select{
 }
 
 .trainer1 {
-    background-image: url('/images/Rectangle-25.png');
+    background-image: url('https://i.ibb.co/TRBLVBj/Rectangle-25.png');
 }
 .trainer2 {
-    background-image: url('/images/Rectangle\ 24.png');
+    background-image: url('https://i.ibb.co/WB3njcK/Rectangle-24.png');
 }
 .trainer3 {
     background-image: url('/images/Rectangle-26.png');
@@ -309,7 +303,7 @@ select{
     background-image: url('/images/Rectangle-27.png');
 }
 .trainer5 {
-    background-image: url('/images/Rectangle-19.png');
+    background-image: url('https://i.ibb.co/qgyLfCz/Rectangle-19.png');
 }
 .trainer6 {
     background-image: url('/images/Rectangle-28.png');
